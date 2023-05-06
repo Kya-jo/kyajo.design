@@ -1,0 +1,19 @@
+/* Error: Undefined variable.
+ *    ,
+ * 16 |     @media (max-width: #{$screen-lg-max}) {
+ *    |                          ^^^^^^^^^^^^^^
+ *    '
+ *   src\_mixins.scss 16:26  lg()
+ *   src\_layout.scss 36:5   @import
+ *   src\style.scss 3:9      root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 16 \2502      @media (max-width: #{$screen-lg-max}) {\d\a    \2502                           ^^^^^^^^^^^^^^\a    \2575 \a   src\\_mixins.scss 16:26  lg()\a   src\\_layout.scss 36:5   @import\a   src\\style.scss 3:9      root stylesheet";
+}

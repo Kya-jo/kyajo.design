@@ -1,0 +1,23 @@
+{
+  "name": "kyajo.design",
+  "version": "1.0.0",
+  "description": "New",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch --update src:public",
+    "build": "sass --watch --update src:public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kya-jo/kyajo.design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kya-jo/kyajo.design/issues"
+  },
+  "homepage": "https://github.com/Kya-jo/kyajo.design#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
