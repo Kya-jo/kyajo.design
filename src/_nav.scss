@@ -38,22 +38,39 @@ nav {
 .logo {
     width: 200px;
 }
-$hover-color: darken($link-color, 20%);
-$visited-color: lighten($link-color, 20%);
 
-//link styling
-a{
-  color: $color-primary;
-  text-decoration: none;
-  
-  &:hover{
-    color: $hover-color;
-    border-bottom: 1px solid $hover-color;
-  }
-  
-  &:visited{
-    color: $visited-color;
-    border-color: $visited-color;
-  }
+ul {
+    list-style: none;
+    a {
+        color: $color-primary;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+            color: #E66F50;
+        }
+    }
 }
-  
+.navigation-container {
+    display: flex;
+    align-content: center;
+}
+.about {
+    display: block;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1200px;
+        @media screen and (max-width: 1400px) {
+            div.example {
+                width: 1200px;
+            }
+        }
+        @media screen and (max-width: 900px) {
+            div.example {
+                width: 700px;
+            }
+        }
+}
+.kya-about {
+    display: flex;
+    justify-content: center;
+}
